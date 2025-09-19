@@ -279,7 +279,46 @@ li {
     padding: 5px 0px;
 }
 hr {
-    border: none; /* Remove default border */
-    border-top: 1px solid black; /* Create a 1px solid black line at the top */
-    margin: 20px 0; /* Add some spacing above and below the line */
+    border: none; 
+    border-top: 1px solid black; 
+    margin: 20px 0; 
   }
+
+
+  h1,h2,h3,h4,h5,h6{
+    overflow: hidden;
+  }
+
+
+
+
+  /* your fixed-top container */
+.fixed-top {
+  transition: all 0.3s ease;
+}
+
+/* Transparent state */
+.fixed-top.transparent {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.fixed-top.transparent i,
+.fixed-top.transparent span {
+  color: white !important;
+}
+.fixed-top.scrolled i,
+.fixed-top.scrolled span {
+  color: black !important;
+}
+
+/* White background after scrolling */
+.fixed-top.scrolled {
+  background: white !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Hide navbar when scrolling down */
+.fixed-top.hide {
+  transform: translateY(-100%);
+}
