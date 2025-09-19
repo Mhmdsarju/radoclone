@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container d-flex justify-content-between fixed-top">
+            <!-- Left menu / search -->
+            <div class="d-flex col-4 col-md-3 justify-content-start align-content-center col-sm-5">
+                <ul class="list-unstyled d-flex gap-2 m-0">
+                    <li>
+                        <button class="btn d-sm-inline d-lg-flex d-md-flex">
+                            <span style="color: white;"><i class="fa-solid fa-bars"></i></span>
+                            <span class="d-none d-lg-inline d-sm-none ms-1 text-white">MENU</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn">
+                            <span><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></span>
+                            <span class="d-none d-lg-inline ms-1" style="color: white;">SEARCH</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-4 col-md-6 d-flex justify-content-center col-sm-4">
+                <button class="btn" id="lg">
+                    <img src="img/logo-wht-rado.png" width="85" height="40" alt="Rado Logo">
+                </button>
+            </div>
+
+            <div class="d-flex justify-content-end align-items-center col-4 col-md-3 col-sm-3 pe-2">
+                <ul id="ul1" class="list-unstyled d-flex gap-2 m-0">
+                    <li>
+                        <button class="btn d-none d-md-inline">
+                            <span style="color: white;"><i class="fa-solid fa-location-dot"></i></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn">
+                            <span style="color: white;"><i class="fa-regular fa-user"></i></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn d-none d-md-inline">
+                            <span style="color: white;"><i class="fa-regular fa-heart"></i></span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="row m-0 p-0    " style="position: relative;">
+            <img src="https://www.rado.com/media/sgecom_contentsystem/Landing/India_Gifting/KK_HR_FESTIVE_2025_21x9.jpg"
+                alt="Desktop banner" class="img-fluid d-none d-lg-block p-0 m-0">
+            <img src="https://www.rado.com/media/sgecom_contentsystem/Landing/India_Gifting/2025_KK_HR_FESTIVE_9x16.jpg"
+                alt="Mobile banner" class="img-fluid d-block d-lg-none p-0 m-0">
+
+
+            <div class=" text-center text-white " style="position: absolute; bottom: 30px;">
+                <h1 style="font-weight: 100;">THE TIME IS NOW</h1>
+                <h6 style="font-weight: 100;">Rado Celebrates The Art of Timeless Gifting</h6>
+                <div>
+                    <button class=" mt-2 " id="bt4">DISCOVER MORE</button>
+                </div>
+                <div style="display: flex;justify-content: center;">
+
+                    <div class="bt7">
+                        <div class="bt7b">
+                        </div>
+                        <button id="bt5">
+                            <i class="fa-solid fa-arrow-down fa-2x" style="color: white;"></i>
+                        </button>
+                        <!-- <button  id="bt5">
+                    <i class="fa-solid fa-arrow-down fa-2x" style="color: white;"></i>
+                    </button> -->
+                    </div>
+
+                </div>
+
+            </div>
+    </article>
+    <section>
+        <div class="d-flex justify-content-around gap-3 gap-lg-0 gap-xl-0 gap-xxl-0" id="scrollable-container"
+            style="width: 100%;height: auto;margin-top: 50px;">
+
+            <div class="d-flex flex-column justify-content-center col-2" style="width: 150px;height: 170px;">
+
+                <a href="#">
+                    <img class="img11"
+                        src="https://www.rado.com/media/sgecom_contentsystem/homepage/category_bubble_carousel/Category_bubble_carousel_Men_watches_smaller_version_1080x1080.jpg"
+                        height="100%" width="100%">
+                </a>
+
+                <h6 style="text-align: center; margin-top: 20px; overflow-y: hidden;">MEN</h6>
+            </div>
+            <div class="d-flex flex-column justify-content-center col-2" style="width: 150px;height: 170px;">
+                <a href="#"><img class="img11"
+                        src="https://www.rado.com/media/sgecom_contentsystem/homepage/category_bubble_carousel/Category_bubble_carousel_Women_watches_smaller_version_1080x1080.jpg"
+                        height="100%" width="100%"></a>
+
+                <h6 style="text-align: center; margin-top: 20px; overflow-y: hidden;">WOMEN</h6>
+            </div>
+            <div class="d-flex flex-column justify-content-center col-2" style="width: 150px;height: 170px;">
+                <a href="#"><img class="img11"
+                        src="https://www.rado.com/media/sgecom_contentsystem/homepage/category_bubble_carousel/category_bubble_carousel_DiaStar_Original_Skeleton_R12164153_1.jpg"
+                        height="100%" width="100%"></a>
+
+                <h6 style="text-align: center; margin-top: 20px; overflow-y: hidden;">GOLDEN HOUR</h6>
+            </div>
+            <div class="d-flex flex-column justify-content-center col-2" style="width: 150px;height: 170px;">
+                <a href="#"><img class="img11"
+                        src="https://www.rado.com/media/sgecom_contentsystem/homepage/category_bubble_carousel/Category_bubble_carousel_Ceramic_watches_smaller_version_1080x1080.jpg"
+                        height="100%" width="100%"></a>
+
+                <h6 style="text-align: center; margin-top: 20px; overflow-y: hidden; ">CERAMIC</h6>
+            </div>
+            <div class="d-flex flex-column justify-content-center col-2" style="width: 150px;height: 170px;">
+                <a href="#"><img class="img11"
+                        src="https://www.rado.com/media/sgecom_contentsystem/homepage/category_bubble_carousel/Category_bubble_carousel_Designer_watches_1080x1080.jpg"
+                        height="100%" width="100%"></a>
+
+                <h6 style="text-align: center; margin-top: 20px; overflow-y: hidden;">DESIGN</h6>
+            </div>
+            <div class="d-flex flex-column justify-content-center col-2" style="width: 150px;height: 170px;">
+                <a href="#">
+
+                    <img class="img11"
+                        src="https://www.rado.com/media/sgecom_contentsystem/homepage/category_bubble_carousel/Category_bubble_carousel_MoM_1080x1080.jpg"
+                        height="100%" width="100%">
+
+                </a>
+
+                <h6 style="text-align: center; margin-top: 20px; overflow-y: hidden;">METERIALS</h6>
+            </div>
+        </div>
+
+    </section>
+    <section>
+
+        <div class="product-cards d-flex align-items-center justify-content-between ">
+
+            <div class="card col-xl-12" style="width: 250px;height: auto;border: none; ">
+                <img class="img-fluid "
+                    src="https://www.rado.com/media/catalog/product/r/g/rgb_cat_integral_212_0204_3_071_4.png?im=AspectCrop=(600,600),allowExpansion,location=(0.5,0.5);Resize=(600,600),aspect=fill;Crop=(0,0,600,600),gravity=Center">
+                <div class="card-body d-flex flex-column align-items-center d-block d-lg-none ">
+                    <h4 style="font-weight: 100;text-align: center;"> Integral Diamonds </h4>
+                    <h6 style="font-weight: 100;text-align: center;"> 31.0 mm, Quartz, 84 g </h6>
+                    <h3 style="font-weight: 100;text-align: center;">$123,345</h3>
+                    <button class="b01" style="font-weight: 100;">DISCOVER</button>
+                </div>
+            </div>
+            <div class="card" style="width: 250px;height: auto; border: none;">
+                <img class="img-fluid"
+                    src="https://www.rado.com/media/catalog/product/c/e/centrix_r30230902_sld_web.png?im=AspectCrop=(600,600),allowExpansion,location=(0.5,0.5);Resize=(600,600),aspect=fill;Crop=(0,0,600,600),gravity=Center">
+                <div class="card-body d-flex flex-column align-items-center d-block d-lg-none">
+                    <h4 style="font-weight: 100;text-align: center;"> Integral Diamonds </h4>
+                    <h6 style="font-weight: 100;text-align: center;"> 31.0 mm, Quartz, 84 g </h6>
+                    <h3 style="font-weight: 100;text-align: center;">$123,345</h3>
+                    <button class="b01" style="font-weight: 100;">DISCOVER</button>
+                </div>
+            </div>
+            <div class="card " style="width: 250px;height: auto; border: none;">
+                <img class="img-fluid"
+                    src="https://www.rado.com/media/catalog/product/t/r/truesquare_r27197169_sld_web.png?im=AspectCrop=(600,600),allowExpansion,location=(0.5,0.5);Resize=(600,600),aspect=fill;Crop=(0,0,600,600),gravity=Center">
+                <div class="card-body d-flex flex-column align-items-center ">
+                    <h4 style="font-weight: 100;text-align: center;"> Integral Diamonds </h4>
+                    <h6 style="font-weight: 100;text-align: center;"> 31.0 mm, Quartz, 84 g </h6>
+                    <h3 style="font-weight: 100;text-align: center;">$123,345</h3>
+                    <button class="b01" style="font-weight: 100;">DISCOVER</button>
+                </div>
+            </div>
+            <div class="card" style="width: 250px;height: auto; border: none;">
+                <img class="img-fluid"
+                    src="https://www.rado.com/media/catalog/product/r/g/rgb_cat_integral_212_0204_3_071_4.png?im=AspectCrop=(600,600),allowExpansion,location=(0.5,0.5);Resize=(600,600),aspect=fill;Crop=(0,0,600,600),gravity=Center">
+                <div class="card-body d-flex flex-column align-items-center d-block d-lg-none">
+                    <h4 style="font-weight: 100;text-align: center;"> Integral Diamonds </h4>
+                    <h6 style="font-weight: 100;text-align: center;"> 31.0 mm, Quartz, 84 g </h6>
+                    <h3 style="font-weight: 100;text-align: center;">$123,345</h3>
+                    <button class="b01" style="font-weight: 100;">DISCOVER</button>
+                </div>
+            </div>
+
+            <div class="card" style="width: 250px;height: auto; border: none;">
+                <img class="img-fluid"
+                    src="https://www.rado.com/media/catalog/product/f/l/florence_r48905205_sld_web_1.png?im=AspectCrop=(600,600),allowExpansion,location=(0.5,0.5);Resize=(600,600),aspect=fill;Crop=(0,0,600,600),gravity=Center">
+                <div class="card-body d-flex flex-column align-items-center d-block d-lg-none">
+                    <h4 style="font-weight: 100;text-align: center;"> Integral Diamonds </h4>
+                    <h6 style="font-weight: 100;text-align: center;"> 31.0 mm, Quartz, 84 g </h6>
+                    <h3 style="font-weight: 100;text-align: center;">$123,345</h3>
+                    <button class="b01" style="font-weight: 100;">DISCOVER</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <article>
+        <div style="width: 100%;height: auto;">
+            <div class="container d-flex flex-column ">
+                <h3 style="text-align: center;font-weight: 100;"> Explore our Collections</h3>
+                <h6 class="mt-2" style="text-align: center; font-weight: 100;">Rado is known as the Master of Materials:
+                    from high-tech<br> ceramic to sapphire crystal and diamonds to
+                    stainless<br> steel, our innovative watches have no boundaries when it <br> comes to design. Feel
+                    and
+                    discover the Rado difference!</h6>
+            </div>
+            <div class="d-block d-sm-none text-center">
+                <button class="b01" style="font-weight: 100; width: fit-content; padding: 10px 20px;">
+                    DISCOVER MORE
+                </button>
+            </div>
+            <div class="container mt-4">
+                <div class="d-flex flex-row flex-nowrap overflow-x-auto gap-3 ">
+                    <div class="card flex-shrink-0 border-0" style="width: 424px;">
+
+                        <a href="#">
+                            <img src="https://www.rado.com/media/sgecom_contentsystem/homepage/carousel/Centrix_Superjubil__3x2.jpg?im=Resize=(1024,682),aspect=fill;Crop=(0,0,1024,682),gravity=Center"
+                                class="card-img-top" alt="CENTRIX">
+
+                        </a>
+                        <div class="card-body text-start">
+                            <h5 class="card-title">CENTRIX</h5>
+                            <button class="bt77" style="font-weight:100;">DISCOVER</button>
+                        </div>
+                    </div>
+
+                    <div class="card flex-shrink-0 border-0" style="width: 424px;">
+                        <a href="#">
+                            <img src="https://www.rado.com/media/sgecom_contentsystem/homepage/carousel/our_collections_True_Square_3x2.png?im=Resize=(1024,682),aspect=fill;Crop=(0,0,1024,682),gravity=Center"
+                                class="card-img-top" alt="TRUE SQUARE">
+
+                        </a>
+                        <div class="card-body text-start ">
+                            <h5 class="card-title">TRUE SQUARE</h5>
+                            <button class=" bt77" style="font-weight:100;">DISCOVER</button>
+                        </div>
+                    </div>
+
+                    <div class="card flex-shrink-0 border-0" style="width: 424px;">
+                        <a href="#">
+                            <img src="https://www.rado.com/media/sgecom_contentsystem/homepage/carousel/Content_carousel_collections_DiaStar_1080x720.jpg?im=Resize=(1024,682),aspect=fill;Crop=(0,0,1024,682),gravity=Center"
+                                class="card-img-top" alt="DIASTAR">
+
+                        </a>
+                        <div class="card-body text-start ">
+                            <h5 class="card-title ">DIASTAR</h5>
+                            <button class="bt77" style="font-weight:100;">DISCOVER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block d-xl-block d-lg-block text-center mt-5">
+                <button class="b01" style="font-weight: 100; width: fit-content; padding: 10px 20px;">
+                    DISCOVER MORE
+                </button>
+            </div>
+        </div>
+    </article>
+
+
+    <article>
+        <div class="container  mt-5 mb-5" style="width: 100%; height: auto;">
+
+            <div class="container ">
+
+                <h3 style="text-align: center;font-weight: 100;">Anatom - Feel the (R)Evolution </h3>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="d-none d-md-block">
+            <div class="video-wrapper" style="position: relative;">
+                <video autoplay muted loop playsinline>
+                    <source
+                        src="https://www.rado.com/media/sgecom_contentsystem/homepage/hero_redesign/Anatom_plasma_R10203102_packshot_1920X1080_3.5.mp4 "
+                        type="video/mp4">
+
+
+                </video>
+
+                <div class="d-none d-md-block d-xl-block d-lg-block text-center mt-5"
+                    style="position: absolute; bottom: 40px;right: 625px;">
+                    
+
+                        <button class="bt90">
+                            DISCOVER MORE
+                        </button>
+                   
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="d-block d-md-none">
+            <div class="video-wrapper" style="height:300px;">
+                <video autoplay muted loop playsinline>
+                    <source
+                        src="https://www.rado.com/media/sgecom_contentsystem/homepage/hero_redesign/Anatom_plasma_R10203102_packshot_1920X1080_3.5.mp4 "
+                        type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="d-block d-sm-none mt-3">
+            <button class="b02 ms-3">
+                DISCOVER MORE
+            </button>
+        </div>
+
+    </article>
+    <div style="width: 100%; height: 2090px;"></div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script>
+        const container = document.querySelector('.product-cards');
+        const cards = container.querySelectorAll('.card');
+
+        function updateActiveCard() {
+            let containerCenter = container.scrollLeft + container.offsetWidth / 2;
+            cards.forEach(card => {
+                let cardCenter = card.offsetLeft + card.offsetWidth / 2;
+                let distance = Math.abs(containerCenter - cardCenter);
+                if (distance < card.offsetWidth / 2) {
+                    card.classList.add('active');
+                } else {
+                    card.classList.remove('active');
+                }
+            });
+        }
+
+        container.addEventListener('scroll', updateActiveCard);
+        window.addEventListener('resize', updateActiveCard);
+        updateActiveCard(); // initial call
+    </script>
+</body>
+
+</html>

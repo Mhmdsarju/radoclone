@@ -1,0 +1,272 @@
+ul,
+li {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    /* margin: 0;
+    padding: 0; */
+}
+
+#lg {
+    padding: 0;
+}
+
+#ul1 {
+    margin: 0;
+}
+
+* {
+    overflow-x: hidden;
+}
+
+
+#bt4 {
+    background-color: transparent;
+    font-weight: 100;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    /* so ::after is positioned relative to this */
+    display: inline-block;
+    padding: 0;
+    /* so the underline is just under the text */
+
+}
+
+#bt4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background-color: aliceblue;
+    transition: width 0.4s ease;
+}
+
+#bt4:hover::after {
+    width: 40%;
+}
+
+
+.bt7 {
+    height: 50px;
+    width: 49px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.bt7b {
+    height: 50px;
+    width: 80px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+    border-radius: 50%;
+    transition: all 1s ease;
+}
+
+@keyframes rotate {
+
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+
+}
+
+#bt5 {
+    width: 43px;
+    height: 43px;
+
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    /* border-left: 2px solid white;
+   border-bottom: 2px solid white;
+   border-top: 2px solid transparent;
+    border-right: 2px solid transparent; */
+    position: absolute;
+
+}
+
+.bt7:hover .bt7b {
+
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    animation-play-state: running;
+}
+
+
+
+.img11 {
+
+    border-radius: 50%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    overflow-y: hidden;
+}
+
+#scrollable-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.product-cards {
+    width: 100%;
+    height: 663px;
+
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.product-cards .card {
+    width: 250px;
+    height: auto;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    transition: all 0.3s ease;
+    opacity: 0.4;
+    filter: grayscale(60%) brightness(1.2);
+}
+
+.product-cards .card.active {
+    opacity: 1;
+    filter: none;
+}
+
+.product-cards::-webkit-scrollbar {
+    display: none;
+}
+
+
+.b01 {
+    width: 100px;
+    padding: 7px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+.b01:hover {
+
+    background-color: black;
+    color: white;
+}
+
+
+.bt77 {
+    background-color: transparent;
+    font-weight: 100;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+
+}
+
+.bt77::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 1px;
+    background-color: black;
+    transition: width 0.4s ease;
+}
+
+.bt77:hover::after {
+    width: 60%;
+}
+
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 70%;
+    object-fit: cover;
+    transition: all 1.5s;
+}
+
+.video-wrapper video:hover {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 576px) {
+    .video-wrapper {
+        height: 300px;
+    }
+}
+
+
+
+.b02 {
+    background-color: transparent;
+    font-weight: 100;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+
+.b02::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 1px;
+    background-color: black;
+    transition: width 0.4s ease;
+}
+
+.b02:hover::after {
+    width: 40%;
+}
+
+.bt90 {
+    font-weight: 100;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.bt90:hover{
+    background-color: black;
+}
