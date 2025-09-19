@@ -1,4 +1,4 @@
-ul,
+
 li {
     list-style: none;
     display: inline;
@@ -270,3 +270,16 @@ li {
 .bt90:hover{
     background-color: black;
 }
+
+.bt88{
+    margin-top: 20px;
+    width: 100%;
+    border: black 1px solid;
+    background: none;
+    padding: 5px 0px;
+}
+hr {
+    border: none; /* Remove default border */
+    border-top: 1px solid black; /* Create a 1px solid black line at the top */
+    margin: 20px 0; /* Add some spacing above and below the line */
+  }
