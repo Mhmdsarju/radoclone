@@ -302,12 +302,12 @@ background-color: rgb(203, 203, 203);
 #bt66:hover{
 background-color: rgb(203, 203, 203);
 }
-  /* your fixed-top container */
+
 .fixed-top {
   transition: all 0.3s ease;
 }
 
-/* Transparent state */
+
 .fixed-top.transparent {
   background: transparent !important;
   box-shadow: none !important;
